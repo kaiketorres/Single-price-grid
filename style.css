@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'karla';
-    src: url(/fonts/Karla-VariableFont_wght.ttf);
+    src: url(fonts/Karla-VariableFont_wght.ttf);
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'karla' ;
+    font-family:'karla';
     background-color: #E5EFF5; 
     min-height: 100vh; 
     margin: 10px;
