@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(/fonts/Karla-VariableFont_wght.ttf);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'karla' ;
+    background-color: #E5EFF5; 
+    min-height: 100vh; 
+    margin: 10px;
+}
+
+/* Card Join our community */
+
+.backgroud_join_our_community{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 250px;
+}
+
+.content_join_our_community{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 50px 50px;
+    height: 250px;
+}
+
+.content_join_our_community h1,h3{
+    padding: 20px 0px 20px 0px;
+}
+
+.content_join_our_community h1{
+    color:#53B5B0 ;
+}
+
+.content_join_our_community h3{
+    color:#c5d374 ;
+}
+
+.content_join_our_community p{
+    line-height: 2;
+    color:#979797 ;
+}
+
+
+/* Card Monthly Subscription */
+
+
+.move_cards{
+    display: flex;
+}
+
+.backgroud_monthly_subscription{
+    color: white;
+    background-color: #2BB4B1;
+    width: 400px;
+    height: 280px;
+}
+
+.content_monthly_subscription{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.content_monthly_subscription h2{
+    line-height: 2;
+}
+
+.content_monthly_subscription samp{
+    font-size: 35px;
+}
+.content_monthly_subscription .full{
+    color: #ffffff;
+}
+
+button{
+    background-color: #BFE033;
+    color: white;
+    border: none;
+    padding: 17px;
+    border-radius: 5px;
+    margin: 25px 0px 0px 0px;
+}
+
+
+/* Card Why Us */
+
+
+.backgroud_why_us{
+    background-color:#49BEBD;
+    width: 400px;
+    height: 280px;
+}
+
+.content_why_us{
+    line-height: 1.5;
+    margin: 50px;
+    color: white;
+}
+
+@media (max-width:813px){
+
+    body{
+        align-items: stretch;
+    }
+    .backgroud_join_our_community,.backgroud_monthly_subscription,.backgroud_why_us{
+        width: 100%;
+    }
+}
+
+@media (max-width:730px){
+
+    body{
+        margin: 30px;
+    }
+
+    .backgroud_join_our_community{   
+        height: 350px;
+    }
+
+    .content_join_our_community{
+        margin: 20px 20px 50px 20px;  
+    }
+
+    .move_cards{
+        flex-direction: column;
+    }
+    
+}
+
+
+
