@@ -24,8 +24,8 @@ body{
 .backgroud_join_our_community{
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(255, 255, 255);
-    width: 800px;
-    height: 250px;
+    width: 750px;
+    height: 230px;
 }
 
 .content_join_our_community{
@@ -64,14 +64,15 @@ body{
 .backgroud_monthly_subscription{
     color: white;
     background-color: #2BB4B1;
-    width: 400px;
-    height: 280px;
+    width: 350px;
+    height: 250px;
+    border-radius: 0px 0px 0px 10px;
 }
 
 .content_monthly_subscription{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 30px;
 }
 
 .content_monthly_subscription h2{
@@ -101,12 +102,13 @@ button{
 .backgroud_why_us{
     background-color:#49BEBD;
     width: 400px;
-    height: 280px;
+    height: 250px;
+    border-radius: 0px 0px 10px 0px;
 }
 
 .content_why_us{
     line-height: 1.5;
-    margin: 50px;
+    margin: 30px;
     color: white;
 }
 
